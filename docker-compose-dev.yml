@@ -8,10 +8,10 @@ services:
     sysctls:
       - net.ipv4.ip_unprivileged_port_start=0
     labels:
-      - traefik.http.frontend.rule=Host:yehorh.local,www.yehorh.local
-      - traefik.https.frontend.rule=Host:yehorh.local,www.yehorh.local
+      - traefik.http.frontend.rule=Host:yehorh.local,www.yehorh.local.],yehorh.local,www.yehorh.local
+      - traefik.https.frontend.rule=Host:yehorh.local,www.yehorh.local,yehorh.local,www.yehorh.local
       # develop with extension that allows setting livereload host and port - https://github.com/lokcito/livereload-extensions
-      - traefik.grunt.frontend.rule=Host:yehorh.local,www.yehorh.local
+      - traefik.grunt.frontend.rule=Host:yehorh.local,www.yehorh.local,yehorh.local,www.yehorh.local
       - traefik.grunt.frontend.entryPoints=grunt
       - traefik.grunt.protocol=http
       - traefik.grunt.port=35729
