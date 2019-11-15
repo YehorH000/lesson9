@@ -35,8 +35,7 @@ RUN if [ "$MEMCACHED" = 1 ] ; then \
 
 RUN echo "deb http://deb.debian.org/debian stretch-backports main" >> /etc/apt/sources.list ; \
     apt-get update && apt-get -t stretch-backports install -y libsodium-dev ; \
-  docker-php-ext-install sodium
-
+    docker-php-ext-install sodium
 
 RUN rm -r /var/lib/apt/lists/*
 
