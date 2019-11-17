@@ -146,8 +146,8 @@
     SetEnvIf Host .*yehorh.local.* MADE_RUN_CODE=base
     SetEnvIf Host .*yehorh.local.* MADE_RUN_TYPE=website
 
-    SetEnvIf Host .*yehorh.local.* MADE_RUN_CODE=additional_website
-    SetEnvIf Host .*yehorh.local.* MADE_RUN_TYPE=website
+    SetEnvIf Host .*yehor-hrabyna.local.* MADE_RUN_CODE=additional_website
+    SetEnvIf Host .*yehor-hrabyna.local.* MADE_RUN_TYPE=website
 
 ############################################
 ## you can put here your magento root folder
