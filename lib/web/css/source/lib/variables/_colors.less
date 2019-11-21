@@ -68,7 +68,6 @@
 @color-gray-darken3: #555;
 @color-gray-darken4: #494949;
 
-@color-light-red1 : #ffcccb;
 @color-red9: #ff0101;
 @color-red10: #e02b27;
 @color-red11: #b30000;
@@ -81,12 +80,10 @@
 
 @color-dark-green1: #006400;
 
-@color-blue: blue ;
 @color-blue1: #1979c3;
 @color-blue2: #006bb4;
 @color-blue3: #00699D;
 @color-sky-blue1: #68a8e0;
-@color-dark-blue1 : #12015c;
 
 @color-pink1: #fae5e5;
 @color-dark-pink1: #800080; // Legacy pink
@@ -106,7 +103,7 @@
 //  ---------------------------------------------
 
 @theme__color__primary: @color-blue1;
-@theme__color__primary-alt: @color-orange-red1;
+@theme__color__primary-alt: @color-blue2;
 @theme__color__secondary: @color-orange-red1;
 
 @primary__color: @color-gray20;
@@ -116,7 +113,7 @@
 @primary__color__light: lighten(@primary__color, 45%); // #a6a6a6
 
 @secondary__color: @color-gray91;
-@secondary__color__light: lighten(@color-dark-blue1, 5%);
+@secondary__color__light: lighten(@secondary__color, 5%);
 
 @page__background-color: @color-white;
 @panel__background-color: darken(@page__background-color, 6%);
